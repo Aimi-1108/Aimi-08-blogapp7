@@ -1,0 +1,16 @@
+{
+    "name": "Aimi-08-blogapp7",
+    "description": "This is blogapp",
+    "keywords": [],
+    "website": "",
+    "repository": "https://github.com/Aimi-1108/Aimi-08-blogapp7",
+    "env": {},
+    "addons": [
+      "heroku-postgresql:hobby-dev"
+    ],
+    "buildpacks": [{
+      "url": "heroku/nodejs"
+    }, {
+      "url": "heroku/ruby"
+    }]
+  }
